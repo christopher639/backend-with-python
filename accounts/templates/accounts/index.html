@@ -1,0 +1,177 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Bundi</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <nav >
+        <ul class="side-bar">
+            <li><a href="#"> <img src="iconsx.png" alt="" id="ambager-menux"></a></li>
+            <li><a href="#bundi">Bundi</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#quick-links">Quick Links</a></li>
+        </ul>
+        <ul class="top-bar">
+            <li><a href="#bundi">Bundi</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact-section">Contacts</a></li>
+            <li><a href="#quick-links">Quick links</a></li>
+           <li><a href="#"> <img src="icon.png" alt="" id="ambager-menu"></a></li>
+        </ul>
+    </nav>
+    <section id="bundi">
+        <div class="home-container">
+            <div class="pic">
+                <img src="{% static 'images/profile-picture.jpg' %}" alt="Project 3"  id="profile-picture">
+            </div>
+
+            <div class="pic">
+                <p>Am christpher Bundi, student at kibabii University parsuing
+                    Bachelor of science in computer science. </p>
+    </section>
+
+    <section id="about">
+        <span>
+            <h1>About</h1>
+            As a dedicated computer science student, 
+            I am passionate about exploring the intricate world of technology.
+            My journey encompasses a diverse range of programming languages, 
+            including Python, Dart, HTML, CSS, and JavaScript, as well as
+            delving into the realm of software engineering and database 
+            management with MySQL. This multifaceted approach has equipped
+            me with a versatile skill set, allowing me to tackle complex 
+            challenges and develop innovative solutions. With a fervent
+            curiosity and a commitment to continuous learning, I thrive 
+            on the dynamic nature of the tech industry, constantly seeking 
+            new opportunities to expand my knowledge and refine my craft. 
+            I am driven by a desire to contribute meaningfully to the advancement
+            of technology, and I am excited to embark on a journey of exploration
+            and innovation in the ever-evolving landscape of computer science.
+        </span>
+    </section>
+    <section id="projects">
+        <div class="card-container">
+            <div class="card">
+                <img src="{% static 'images/Project-Manager.jpg' %}" alt="Project 3">
+                <div class="card-description">
+                    <h3>Project 1</h3>
+                    <p>This is a brief description of Project 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'images/Project-Manager.jpg' %}" alt="Project 3">
+                <div class="card-description">
+                    <h3>Project 2</h3>
+                    <p>This is a brief description of Project 2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'images/Project-Manager.jpg' %}" alt="Project 3">
+                <div class="card-description">
+                    <h3>Project 3</h3>
+                    <p>This is a brief description of Project 3.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'images/Project-Manager.jpg' %}" alt="Project 3">
+                <div class="card-description">
+                    <h3>Project 4</h3>
+                    <p>This is a brief description of Project 4.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'images/Project-Manager.jpg' %}" alt="Project 3">
+                <div class="card-description">
+                    <h3>Project 5</h3>
+                    <p>This is a brief description of Project 5.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'images/Project-Manager.jpg' %}" alt="Project 3">
+                <div class="card-description">
+                    <h3>Project 6</h3>
+                    <p>This is a brief description of Project 6.</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section id="experience">
+            <h1>Experience</h1>
+            As a dedicated computer science student, 
+            I am passionate about exploring the intricate world of technology.
+            My journey encompasses a diverse range of programming languages, 
+            including Python, Dart, HTML, CSS, and JavaScript, as well as
+            delving into the realm of software engineering and database 
+            management with MySQL. This multifaceted approach has equipped
+            me with a versatile skill set, allowing me to tackle complex 
+            challenges and develop innovative solutions. With a fervent
+            curiosity and a commitment to continuous learning, I thrive 
+            on the dynamic nature of the tech industry, constantly seeking 
+            new opportunities to expand my knowledge and refine my craft. 
+            I am driven by a desire to contribute meaningfully to the advancement
+            of technology, and I am excited to embark on a journey of exploration
+            and innovation in the ever-evolving landscape of computer science.
+
+    </section>
+      <section id="contact-section">
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        
+        <div class="social-media">
+            <a href="#" class="social-icon">
+                <img src="{% static 'icons/facebook.png' %}" alt="Facebook">
+            </a>
+            <a href="#" class="social-icon">
+                <img src="{% static 'icons/twitter.png' %}" alt="Twitter">
+            </a>
+            <a href="#" class="social-icon">
+                <img src="{% static 'icons/linkedin.png' %}" alt="LinkedIn">
+            </a>
+            <a href="#" class="social-icon">
+                <img src="{% static 'icons/instagram.png' %}" alt="Instagram">
+            </a>
+        </div>
+    </section>
+        <footer id="quick-links">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About me</a>
+                <a href="#">Services</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Experience</a>
+                <a href="#">Education</a>
+                <a href="#">Gallary</a>
+                <a href="#">My CV</a>
+
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
